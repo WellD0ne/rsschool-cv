@@ -31,7 +31,7 @@ Configuring and maintaining services on Linux OS.
 Creation and support of sites in PHP.
 ****
 ## Education
-** Univercity: ** Soloviev Rybinsk State Aviation Technical University.
+**Univercity:** Soloviev Rybinsk State Aviation Technical University.
 ****
 ## Languages
 * Russian
