@@ -1,1 +1,132 @@
-html 
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>John Doe CV</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="name-avatar">
+                <div class="avatar">
+                    <img src="images/avatar.png" alt="avatar">
+                </div>
+                <div class="name">
+                    <h1>John Doe</h1>
+                    <h2>Junior Frontend dev</h2>
+                </div>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutme">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skils">Skils</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#example">Code Example</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#languages">Languages</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="left columns">
+                <div class="row education" id="education">
+                    <h2>Education</h2>
+                    <p>2010 - 2014</p>
+                    <p>Soloviev Rybinsk State Aviation Technical University</p>
+                </div>
+                <div class="row contacts" id="contacts">
+                    <h2>Contacts</h2>
+                    <ul>
+                        <li>Location: Russia, Yaroslavl
+                        <li>E-mail: mkdir@bk.ru</li>
+                        <li>Discord: WellD0ne</li>
+                        <li>GitHub: <a target="_blank"
+                                href="https://github.com/WellD0ne">https://github.com/WellD0ne</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right columns">
+                <div class="row aboutme" id="aboutme">
+                    <h2>About Me</h2>
+                    <p>I work as a Linux OS administrator.</p>
+                    <p>I study programming. I create websites.</p>
+                    <p>I want to become a full stack developer!</p>
+                </div>
+                <div class="row languages" id="languages">
+                    <h2>Languages</h2>
+                    <ul>
+                        <li>Russian</li>
+                        <li>English A1</li>
+                    </ul>
+                </div>
+                <div class="row experience" id="experience">
+                    <h2>Experience</h2>
+                    <p>Configuring and maintaining services on Linux OS.</p>
+                    <p>Creation and support of sites in PHP.</p>
+                </div>
+                <div class="row skils" id="skils">
+                    <h2>Skils</h2>
+                    <ul>
+                        <li>OS Linux (CentOS/Ubuntu/Altlinux)</li>
+                        <li>PHP(Laravel/Wordpress)</li>
+                        <li>HTML/CSS(Bootstrap/FoundationCSS)</li>
+                        <li>Javascript (Basic)</li>
+                        <li>Git</li>
+                        <li>Photoshop</li>
+                    </ul>
+                </div>
+                <div class="row projects" id="projects">
+                    <h2>Projects</h2>
+                    <ul>
+                        <li><a target="_blank" href="https://github.com/WellD0ne/rsschool-cv/tree/rsschool-cv-html">RSSCHOOL CV</a></li>
+                    </ul>
+                </div>
+
+                
+                <div class="row code-example" id="example">
+                    <h2>Code Example</h2>
+                    <pre>
+<code>function sum(a, b) {
+    return a + b;
+}</code>
+                    </pre>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-info">
+                <div class="copy">John Doe &copy; 2022 GitHub: <a target="_blank"
+                        href="https://github.com/WellD0ne">https://github.com/WellD0ne</a></div>
+                <div class="rss-logo"><a target="_blank" href="https://rs.school/js/"><img src="images/rss.svg" alt="rss-logo" width="100" height="37"></a></div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
